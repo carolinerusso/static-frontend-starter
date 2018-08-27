@@ -1,0 +1,8 @@
+@import 'scss/global/reset';
+@import 'scss/global/variables';
+
+@import 'scss/components/HelloWorld/hello';
+
+@media( min-width: map-get($breakpoint, medium) ){
+	@import 'scss/components/HelloWorld/hello.medium';
+}

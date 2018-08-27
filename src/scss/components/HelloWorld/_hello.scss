@@ -1,0 +1,8 @@
+$block: 'hello';
+
+.#{$block} {
+	font-size: map-get($font-size, large);
+	&.active {
+		color: magenta;
+	}
+}
